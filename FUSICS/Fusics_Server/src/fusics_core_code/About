@@ -207,3 +207,379 @@ public class About {
 
         BtR.setTranslateX(1250);
         BtR.setTranslateY(690);
+
+        BtX.setOnAction(e->{
+            if(clkX==0) {
+                try {
+                    root.getChildren().remove(ball);
+                    BtX.setBackground(new Background(new BackgroundFill(Color.DARKBLUE, CornerRadii.EMPTY, Insets.EMPTY)));
+                    BtVx.setBackground(null);
+                    BtVy.setBackground(null);
+                    BtV.setBackground(null);
+                    BtY.setBackground(null);
+                    BtTm.setBackground(null);
+                    BtHm.setBackground(null);
+                    BtR.setBackground(null);
+
+                    showX.start(root, 0, back);
+                    showY.start(root, 1, back);
+                    showR.start(root, 1, back);
+                    showH.start(root, 1, back);
+                    showVx.start(root, 1, back);
+                    showVy.start(root, 1, back);
+                    showT.start(root, 1, back);
+                    showV.start(root, 1, back);
+                    clkX = 1;
+                    clkVx = 0;
+                    clkVy = 0;
+                    clkV = 0;
+                    clkY = 0;
+                    clkHm = 0;
+                    clkTm = 0;
+                    clkR = 0;
+                } catch ( Exception ev)
+                {
+                    ev.printStackTrace();
+                }
+            }
+        });
+
+        BtY.setOnAction(e->{
+            if(clkY==0) {
+                try {
+                    root.getChildren().remove(ball);
+                    BtY.setBackground(new Background(new BackgroundFill(Color.DARKBLUE, CornerRadii.EMPTY, Insets.EMPTY)));
+                    BtVx.setBackground(null);
+                    BtVy.setBackground(null);
+                    BtV.setBackground(null);
+                    BtX.setBackground(null);
+                    BtTm.setBackground(null);
+                    BtHm.setBackground(null);
+                    BtR.setBackground(null);
+
+                    showX.start(root, 1, back);
+                    showY.start(root, 0, back);
+                    showR.start(root, 1, back);
+                    showH.start(root, 1, back);
+                    showVx.start(root, 1, back);
+                    showVy.start(root, 1, back);
+                    showT.start(root, 1, back);
+                    showV.start(root, 1, back);
+                    clkY = 1;
+                    clkVx = 0;
+                    clkVy = 0;
+                    clkV = 0;
+                    clkX = 0;
+                    clkHm = 0;
+                    clkTm = 0;
+                    clkR = 0;
+                } catch ( Exception ev)
+                {
+                    ev.printStackTrace();
+                }
+            }
+        });
+
+        BtR.setOnAction(e->{
+            if(clkR==0) {
+                try {
+                    root.getChildren().remove(ball);
+                    BtR.setBackground(new Background(new BackgroundFill(Color.DARKBLUE, CornerRadii.EMPTY, Insets.EMPTY)));
+                    BtVx.setBackground(null);
+                    BtVy.setBackground(null);
+                    BtV.setBackground(null);
+                    BtY.setBackground(null);
+                    BtTm.setBackground(null);
+                    BtHm.setBackground(null);
+                    BtX.setBackground(null);
+
+                    showX.start(root, 1, back);
+                    showY.start(root, 1, back);
+                    showR.start(root, 0, back);
+                    showH.start(root, 1, back);
+                    showVx.start(root, 1, back);
+                    showVy.start(root, 1, back);
+                    showT.start(root, 1, back);
+                    showV.start(root, 1, back);
+                    clkR = 1;
+                    clkVx = 0;
+                    clkVy = 0;
+                    clkV = 0;
+                    clkX = 0;
+                    clkHm = 0;
+                    clkTm = 0;
+                    clkY = 0;
+                } catch ( Exception ev)
+                {
+                    ev.printStackTrace();
+                }
+            }
+        });
+
+        BtHm.setOnAction(e->{
+            if(clkHm==0) {
+                try {
+                    root.getChildren().remove(ball);
+                    BtHm.setBackground(new Background(new BackgroundFill(Color.DARKBLUE, CornerRadii.EMPTY, Insets.EMPTY)));
+                    BtVx.setBackground(null);
+                    BtVy.setBackground(null);
+                    BtV.setBackground(null);
+                    BtY.setBackground(null);
+                    BtTm.setBackground(null);
+                    BtX.setBackground(null);
+                    BtR.setBackground(null);
+
+                    showX.start(root, 1, back);
+                    showY.start(root, 1, back);
+                    showR.start(root, 1, back);
+                    showH.start(root, 0, back);
+                    showVx.start(root, 1, back);
+                    showVy.start(root, 1, back);
+                    showT.start(root, 1, back);
+                    showV.start(root, 1, back);
+                    clkHm = 1;
+                    clkVx = 0;
+                    clkVy = 0;
+                    clkV = 0;
+                    clkX = 0;
+                    clkR = 0;
+                    clkTm = 0;
+                    clkY = 0;
+                } catch (Exception ev)
+                {
+                    ev.printStackTrace();
+                }
+            }
+        });
+
+        BtV.setOnAction(e->{
+            if(clkV==0) {
+                try {
+                    root.getChildren().remove(ball);
+                    BtV.setBackground(new Background(new BackgroundFill(Color.DARKBLUE, CornerRadii.EMPTY, Insets.EMPTY)));
+                    BtVx.setBackground(null);
+                    BtVy.setBackground(null);
+                    BtX.setBackground(null);
+                    BtY.setBackground(null);
+                    BtTm.setBackground(null);
+                    BtHm.setBackground(null);
+                    BtR.setBackground(null);
+
+                    showX.start(root, 1, back);
+                    showY.start(root, 1, back);
+                    showR.start(root, 1, back);
+                    showH.start(root, 1, back);
+                    showV.start(root, 0, back);
+                    showVx.start(root, 1, back);
+                    showVy.start(root, 1, back);
+                    showT.start(root, 1, back);
+                    clkHm = 0;
+                    clkVx = 0;
+                    clkVy = 0;
+                    clkV = 1;
+                    clkX = 0;
+                    clkR = 0;
+                    clkTm = 0;
+                    clkY = 0;
+                } catch (Exception ev)
+                {
+                    ev.printStackTrace();
+                }
+            }
+        });
+
+        BtVx.setOnAction(e->{
+            if(clkVx==0) {
+                try {
+                    root.getChildren().remove(ball);
+                    BtVx.setBackground(new Background(new BackgroundFill(Color.DARKBLUE, CornerRadii.EMPTY, Insets.EMPTY)));
+                    BtX.setBackground(null);
+                    BtVy.setBackground(null);
+                    BtV.setBackground(null);
+                    BtY.setBackground(null);
+                    BtTm.setBackground(null);
+                    BtHm.setBackground(null);
+                    BtR.setBackground(null);
+
+                    showX.start(root, 1, back);
+                    showY.start(root, 1, back);
+                    showR.start(root, 1, back);
+                    showH.start(root, 1, back);
+                    showV.start(root, 1, back);
+                    showVx.start(root, 0, back);
+                    showVy.start(root, 1, back);
+                    showT.start(root, 1, back);
+                    clkHm = 0;
+                    clkVx = 1;
+                    clkVy = 0;
+                    clkV = 0;
+                    clkX = 0;
+                    clkR = 0;
+                    clkTm = 0;
+                    clkY = 0;
+                } catch (Exception ev)
+                {
+                    ev.printStackTrace();
+                }
+            }
+        });
+
+        BtVy.setOnAction(e->{
+            if(clkVy==0) {
+                try {
+                    root.getChildren().remove(ball);
+                    BtVy.setBackground(new Background(new BackgroundFill(Color.DARKBLUE, CornerRadii.EMPTY, Insets.EMPTY)));
+                    BtVx.setBackground(null);
+                    BtX.setBackground(null);
+                    BtV.setBackground(null);
+                    BtY.setBackground(null);
+                    BtTm.setBackground(null);
+                    BtHm.setBackground(null);
+                    BtR.setBackground(null);
+
+                    showX.start(root, 1, back);
+                    showY.start(root, 1, back);
+                    showR.start(root, 1, back);
+                    showH.start(root, 1, back);
+                    showV.start(root, 1, back);
+                    showVx.start(root, 1, back);
+                    showVy.start(root, 0, back);
+                    showT.start(root, 1, back);
+                    clkHm = 0;
+                    clkVx = 0;
+                    clkVy = 1;
+                    clkV = 0;
+                    clkX = 0;
+                    clkR = 0;
+                    clkTm = 0;
+                    clkY = 0;
+                } catch (Exception ev)
+                {
+                    ev.printStackTrace();
+                }
+            }
+        });
+
+        BtTm.setOnAction(e->{
+            if(clkTm==0) {
+                try {
+                    root.getChildren().remove(ball);
+                    BtTm.setBackground(new Background(new BackgroundFill(Color.DARKBLUE, CornerRadii.EMPTY, Insets.EMPTY)));
+                    BtVx.setBackground(null);
+                    BtVy.setBackground(null);
+                    BtV.setBackground(null);
+                    BtY.setBackground(null);
+                    BtX.setBackground(null);
+                    BtHm.setBackground(null);
+                    BtR.setBackground(null);
+
+                    showX.start(root, 1, back);
+                    showY.start(root, 1, back);
+                    showR.start(root, 1, back);
+                    showH.start(root, 1, back);
+                    showV.start(root, 1, back);
+                    showVx.start(root, 1, back);
+                    showVy.start(root, 1, back);
+                    showT.start(root, 0, back);
+                    clkHm = 0;
+                    clkVx = 0;
+                    clkVy = 0;
+                    clkV = 0;
+                    clkX = 0;
+                    clkR = 0;
+                    clkTm = 1;
+                    clkY = 0;
+                } catch (Exception ev)
+                {
+                    ev.printStackTrace();
+                }
+            }
+        });
+
+        Scene scene = new Scene(root, 1600, 800);
+        primaryStage.setScene(scene);
+        primaryStage.show();
+
+        primaryStage.setOnCloseRequest(new EventHandler<WindowEvent>() {
+            @Override
+            public void handle(WindowEvent e) {
+                e.consume();
+                Pane R = new Pane();
+                Text exit = new Text("Do you want to exit?");
+                exit.setScaleX(3);
+                exit.setScaleY(3);
+                exit.setTranslateX(300);
+                exit.setTranslateY(100);
+                exit.setFill(Color.WHITE);
+                Button yes = new Button("Yes");
+                setStyleE(yes);
+                yes.setTranslateX(170);
+                yes.setTranslateY(200);
+                yes.setPrefSize(150, 50);
+                Button no = new Button("No");
+                setStyleE(no);
+                no.setTranslateX(400);
+                no.setTranslateY(200);
+                no.setPrefSize(150, 50);
+                R.getChildren().addAll(exit, yes, no);
+                Scene S = new Scene(R, 700, 400);
+                Stage eStage = new Stage();
+                eStage.setScene(S);
+                Image bg = null;
+                try {
+                    bg = new Image(new FileInputStream("src/Images/exit.png"));
+                } catch (FileNotFoundException fileNotFoundException) {
+                    fileNotFoundException.printStackTrace();
+                }
+                BackgroundImage bi = new BackgroundImage(bg,
+                        BackgroundRepeat.NO_REPEAT,
+                        BackgroundRepeat.NO_REPEAT,
+                        BackgroundPosition.DEFAULT,
+                        BackgroundSize.DEFAULT);
+                Background back = new Background(bi);
+                R.setBackground(back);
+                S.setFill(Color.TRANSPARENT);
+                eStage.initStyle(StageStyle.TRANSPARENT);
+                eStage.show();
+
+                yes.setOnAction(ev -> {
+                    System.out.println("Closing");
+                    System.exit(0);
+                });
+                no.setOnAction(ev -> {
+                    eStage.close();
+                });
+            }
+        });
+    }
+
+    public Button setStyle( Button b)
+    {
+        b.setStyle("-fx-padding: 8 15 15 15;\n" +
+                "    -fx-background-insets: 0,0 0 5 0, 0 0 6 0, 0 0 7 0;\n" +
+                "    -fx-background-radius: 8;\n" +
+                "    -fx-background-color: \n" +
+                "        linear-gradient(from 0% 93% to 0% 100%, #8d9092 0%, #717375 100%),\n" +
+                "        #8d9092,\n" +
+                "        #717375,\n" +
+                "        radial-gradient(center 50% 50%, radius 100%, #ffffff, #a1a3a6);\n" +
+                "    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.75) , 4,0,0,1 );\n" +
+                "    -fx-font-weight: bold;\n" +
+                "    -fx-font-size: 1.1em;");
+        return b;
+    }
+    public Button setStyleE(Button b) {
+        b.setStyle("-fx-background-color: \n" +
+                "        linear-gradient(#f2f2f2, #d6d6d6),\n" +
+                "        linear-gradient(#fcfcfc 0%, #d9d9d9 20%, #d6d6d6 100%),\n" +
+                "        linear-gradient(#dddddd 0%, #f6f6f6 50%);\n" +
+                "    -fx-background-radius: 8,7,6;\n" +
+                "    -fx-background-insets: 0,1,2;\n" +
+                "    -fx-text-fill: black;\n" +
+                "    -fx-font-weight: bold;\n" +
+                "    -fx-font-size: 1.6em;\n" +
+                "    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );");
+        return b;
+    }
+
+}
