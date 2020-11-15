@@ -1,11 +1,12 @@
 # HackTheVerse_Team_GGWP
 <h2>FUSICS</h2>
-<p><b>Fusics is basically an interactive learning game based on core topics of physics. During this global pandemic, all the academic activities are hampered. Here, fusics provides a great platform to both the teachers and the students to learn and interact in a fun way.</b></p><br>
+<p><b>FUSICS is basically an interactive learning game based on core topics of physics. During this global pandemic, all the academic activities are hampered. Here, FUSICS provides a great platform to both the teachers and the students to learn and interact in a fun way.</b></p><br>
 <h2>Main Features </h2>
 <p><b><ul>
-  <li>Virtual class room</li>
   <li>Topic wise self learning</li>
   <li>Experiment Hands-on practicals </li>
+  <li>Single Player and Multi Player Exam</li>
+  <li>Virtual Class Room</li>
 </ul>
 </b></p><br>
 <h2>Requirements</h2>
