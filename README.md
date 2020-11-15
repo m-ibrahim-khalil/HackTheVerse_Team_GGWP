@@ -5,7 +5,7 @@
 <p><b><ul>
   <li>Virtual class room</li>
   <li>Topic wise self learning</li>
-  <li>Experiment Hands-on practical </li>
+  <li>Experiment Hands-on practicals </li>
 </ul>
 </b></p><br>
 <h2>Requirements</h2>
@@ -18,9 +18,12 @@
 <p><b><ol>
   <li>Download or clone Fusics_server,Fusics_client, Main_server projects</li>
   <li>Open Fusics_server,Fusics_client, Main_server projects in different window using any IDE (Intellij IDEA) </li>
-  <li>For multiplayer ....</li>
-   <li>For multiplayer ....</li>
+  <li>Run Main_server/Server.java</li>
+  <li>Run Fusics_server/src/fusics_core_code/Main.java</li>
+  <li>Run Fusics_client/src/fusics_core_code/Main.java</li>
 </ol>
 </b></p><br>
+<h2>Demo Vedeo Link</h2>
+<b> For demo video <a href="https://drive.google.com/file/d/1AUldnklBctXsNIN9kt65gNmDcrFzbe7s/view"> click here </a>. </b>
 
 
