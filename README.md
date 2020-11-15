@@ -4,8 +4,8 @@
 <h2>Main Features </h2>
 <p><b><ul>
   <li>Topic wise self learning</li>
-  <li>Experiment Hands-on practicals </li>
-  <li>Single Player and Multi Player Exam</li>
+  <li>Virtual Experiment of Hands-on practicals </li>
+  <li>Single Player and Multi Player Exam with visualizations</li>
   <li>Virtual Class Room</li>
 </ul>
 </b></p><br>
